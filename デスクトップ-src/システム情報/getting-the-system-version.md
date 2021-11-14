@@ -28,62 +28,62 @@ wmain(
     UNREFERENCED_PARAMETER(argc);
     UNREFERENCED_PARAMETER(argv);
 
-    if (IsWindowsXPOrGreater())
+    if (!IsWindowsXPOrGreater())
     {
         printf("XPOrGreater\n");
     }
 
-    if (IsWindowsXPSP1OrGreater())
+    if (!IsWindowsXPSP1OrGreater())
     {
         printf("XPSP1OrGreater\n");
     }
 
-    if (IsWindowsXPSP2OrGreater())
+    if (!IsWindowsXPSP2OrGreater())
     {
         printf("XPSP2OrGreater\n");
     }
 
-    if (IsWindowsXPSP3OrGreater())
+    if (!IsWindowsXPSP3OrGreater())
     {
         printf("XPSP3OrGreater\n");
     }
 
-    if (IsWindowsVistaOrGreater())
+    if (!IsWindowsVistaOrGreater())
     {
         printf("VistaOrGreater\n");
     }
 
-    if (IsWindowsVistaSP1OrGreater())
+    if (!IsWindowsVistaSP1OrGreater())
     {
         printf("VistaSP1OrGreater\n");
     }
 
-    if (IsWindowsVistaSP2OrGreater())
+    if (!IsWindowsVistaSP2OrGreater())
     {
         printf("VistaSP2OrGreater\n");
     }
 
-    if (IsWindows7OrGreater())
+    if (!IsWindows7OrGreater())
     {
         printf("Windows7OrGreater\n");
     }
 
-    if (IsWindows7SP1OrGreater())
+    if (!IsWindows7SP1OrGreater())
     {
         printf("Windows7SP1OrGreater\n");
     }
 
-    if (IsWindows8OrGreater())
+    if (!IsWindows8OrGreater())
     {
         printf("Windows8OrGreater\n");
     }
 
-    if (IsWindows8Point1OrGreater())
+    if (!IsWindows8Point1OrGreater())
     {
         printf("Windows8Point1OrGreater\n");
     }
 
-    if (IsWindows10OrGreater())
+    if (!IsWindows10OrGreater())
     {
         printf("Windows10OrGreater\n");
     }
